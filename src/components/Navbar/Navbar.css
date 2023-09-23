@@ -1,3 +1,99 @@
 .navbar{
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    min-height: 100px;
+    align-items: center;
+    background-color: #f8f9ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: relative;
 }
+
+.navbar .logo {
+    /* border: 2px solid red; */
+    height: 49px;
+    width: 125px;
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6px;
+}
+
+.navigation-menu{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid green; */
+    align-items: center;
+    /* display: inline-flex; */
+    
+    justify-content: flex-end;
+    position: relative;
+    }
+    .navigation-menu .button-instance {
+    flex: 0 0 auto !important;
+    }
+
+    ul {
+        display: flex;
+        gap: 50px;
+        list-style: none;
+
+    }
+
+   a{
+        text-decoration: none;
+      }
+
+    .menu-button{
+        color: #ed203a;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        left: 0;
+        letter-spacing: 0;
+        line-height: 24px;
+      
+        /* position: fixed;
+        text-align: center;
+        top: 0;
+        white-space: nowrap; */
+        }
+
+        .button {
+            align-items: center;
+            border-radius: 20px;
+            display: inline-flex;
+            gap: 8px;
+            justify-content: center;
+            position: relative;
+            transition: all 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 0;
+            line-height: 24px;
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            width: fit-content;
+            height: 60px;
+            padding: 16px 50px;
+            margin-left: 50px;
+            background: linear-gradient(to right, rgba(106, 18, 105, 1), rgba(222, 0, 105, 1));
+            color: white; /* Cambia el color del texto para que sea legible en el gradiente */
+            border: none;
+            color: #ffffff;
+        
+            font-size: 16px;
+            font-weight: 600;
+            left: 0;
+            letter-spacing: 0;
+            line-height: 24px;
+            text-align: center;  
+            transition: background-color 0.3s;
+            cursor: pointer;              
+        }
+
+        .button:hover {
+            background-color: rgba(0, 0, 0, 0.3); /* Cambia el color de fondo en hover */
+          }
