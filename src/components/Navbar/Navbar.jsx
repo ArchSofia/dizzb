@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
+import flecha from "../../assets/arrowright.svg";
 
 const Navbar = () => {
 	return (
@@ -31,7 +32,10 @@ const Navbar = () => {
 						</a>
 					</li>
 				</ul>
-				<button className="button">Get started</button>
+				<button className="button">
+					Get started
+					<img src={flecha}></img>{" "}
+				</button>
 			</nav>
 		</div>
 	);
